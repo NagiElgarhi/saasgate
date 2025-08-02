@@ -1,0 +1,8 @@
+{
+  "name": "Saas Gate -ar",
+  "description": "النسخه العربية",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}
