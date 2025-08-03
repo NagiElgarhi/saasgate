@@ -1,4 +1,3 @@
-
 import { Part, ContentType } from '../../types';
 
 export const part2: Part = {
@@ -50,7 +49,7 @@ export const part2: Part = {
             },
             {
                 type: ContentType.PARAGRAPH,
-                text: 'بعد قراءة هذا الفصل، ستكون قادرًا على:\n1. اختيار النموذج الأمثل لفكرتك.\n2. تصميم هيكل تسعير يجذب العملاء ويُدرّ الأرباح.\n3. بناء نظام داخلي لإدارة الاشتراكات.\n4. تحليل الربحية بدقة.\n5. تجنب الأخطاء الشائعة في نماذج الأعمال.'
+                text: 'بعد قراءة هذا الفصل، ستكون قادرًا على:\n1. اختيار النموذج الأمثل لفكرتك.\n2. تصميم هيكل تسعير (Pricing Structure) يجذب العملاء ويُدرّ الأرباح.\n3. بناء نظام داخلي لإدارة الاشتراكات.\n4. تحليل الربحية بدقة.\n5. تجنب الأخطاء الشائعة في نماذج الأعمال.'
             }
           ],
         },
@@ -75,7 +74,7 @@ export const part2: Part = {
 | **قناة التوزيع (Distribution Channel)** | كيف يصل العميل إلى الخدمة؟ (مباشر، عبر شركاء) |
 | **نموذج الإيراد (Revenue Model)** | كيف تربح؟ (اشتراك، عمولة، إعلانات) |
 | **تكلفة الاستحواذ (Customer Acquisition Cost - CAC)** | كم تدفع لجذب عميل واحد؟ |
-| **مدة بقاء العميل (Customer Lifetime - LTV)** | كم من الوقت يبقى العميل مشتركًا؟ |`
+| **القيمة مدى الحياة للعميل (Customer Lifetime Value - LTV)** | كم من الوقت يبقى العميل مشتركًا؟ |`
             },
             { type: ContentType.HEADING3, text: '🏗️ نموذج كانفاس الأعمال (Business Model Canvas) لنظام SaaS' },
             { type: ContentType.PARAGRAPH, text: 'لتنظيم هذه العناصر، نستخدم <b>نموذج كانفاس الأعمال (Business Model Canvas)</b>، وهو أداة شهيرة طوّرها <b>أليكسندر أودامير</b>.'},
@@ -87,22 +86,22 @@ export const part2: Part = {
 
         <!-- Value Proposition -->
         <div class="md:col-span-2 p-4 bg-amber-100 border border-amber-200 rounded-lg text-center">
-            <h4 class="font-bold text-amber-800 text-lg mb-2">💡 القيمة المقترحة</h4>
+            <h4 class="font-bold text-amber-800 text-lg mb-2">💡 القيمة المقترحة (Value Proposition)</h4>
             <p class="text-amber-900">"نظام بسيط لإدارة المهام الجماعية بدون تعقيد"</p>
         </div>
 
         <!-- Customer Side -->
         <div class="space-y-4">
             <div class="p-4 bg-sky-50 border border-sky-200 rounded-lg">
-                <h4 class="font-bold text-sky-800 mb-2">👥 العملاء المستهدفون</h4>
+                <h4 class="font-bold text-sky-800 mb-2">👥 العملاء المستهدفون (Target Audience)</h4>
                 <p class="text-sm text-sky-900">فرق العمل عن بعد، المبتدئون في إدارة المشاريع.</p>
             </div>
             <div class="p-4 bg-sky-50 border border-sky-200 rounded-lg">
-                <h4 class="font-bold text-sky-800 mb-2">🤝 علاقات العملاء</h4>
+                <h4 class="font-bold text-sky-800 mb-2">🤝 علاقات العملاء (Customer Relationships)</h4>
                 <p class="text-sm text-sky-900">دعم فني عبر البريد، دروس فيديو، مجتمع.</p>
             </div>
             <div class="p-4 bg-sky-50 border border-sky-200 rounded-lg">
-                <h4 class="font-bold text-sky-800 mb-2">🚚 قنوات التسويق</h4>
+                <h4 class="font-bold text-sky-800 mb-2">🚚 قنوات التسويق (Channels)</h4>
                 <p class="text-sm text-sky-900">فيسبوك، Google Ads، محتوى تعليمي على يوتيوب.</p>
             </div>
         </div>
@@ -110,15 +109,15 @@ export const part2: Part = {
         <!-- Business Side -->
         <div class="space-y-4">
             <div class="p-4 bg-stone-100 border border-stone-200 rounded-lg">
-                <h4 class="font-bold text-stone-800 mb-2">⚙️ الأنشطة الأساسية</h4>
+                <h4 class="font-bold text-stone-800 mb-2">⚙️ الأنشطة الأساسية (Key Activities)</h4>
                 <p class="text-sm text-stone-700">تطوير النظام، التحديثات، دعم العملاء.</p>
             </div>
             <div class="p-4 bg-stone-100 border border-stone-200 rounded-lg">
-                <h4 class="font-bold text-stone-800 mb-2">📦 الموارد الأساسية</h4>
+                <h4 class="font-bold text-stone-800 mb-2">📦 الموارد الأساسية (Key Resources)</h4>
                 <p class="text-sm text-stone-700">فريق تطوير، خوادم سحابية، واجهة برمجة.</p>
             </div>
             <div class="p-4 bg-stone-100 border border-stone-200 rounded-lg">
-                <h4 class="font-bold text-stone-800 mb-2">🔗 شراكات</h4>
+                <h4 class="font-bold text-stone-800 mb-2">🔗 شراكات (Key Partners)</h4>
                 <p class="text-sm text-stone-700">Stripe (الدفع)، AWS (الاستضافة)، Mailchimp (البريد).</p>
             </div>
         </div>
@@ -126,11 +125,11 @@ export const part2: Part = {
         <!-- Financials -->
         <div class="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="p-4 bg-red-50 border border-red-200 rounded-lg">
-                <h4 class="font-bold text-red-800 mb-2">💸 هيكل التكاليف</h4>
+                <h4 class="font-bold text-red-800 mb-2">💸 هيكل التكاليف (Cost Structure)</h4>
                 <p class="text-sm text-red-900">3000$ شهريًا (رواتب، استضافة، تسويق).</p>
             </div>
             <div class="p-4 bg-green-50 border border-green-200 rounded-lg">
-                <h4 class="font-bold text-green-800 mb-2">💰 مصدر الإيراد</h4>
+                <h4 class="font-bold text-green-800 mb-2">💰 مصدر الإيراد (Revenue Streams)</h4>
                 <p class="text-sm text-green-900">اشتراكات شهرية: 10$ للمستخدم، 80$ للفرق.</p>
             </div>
         </div>
@@ -194,7 +193,7 @@ export const part2: Part = {
     
     <!-- Subscription -->
     <div class="bg-sky-50 border border-sky-200 rounded-lg p-4 shadow">
-        <h4 class="font-bold text-sky-800 text-lg mb-2">🤝 الاشتراك الثابت</h4>
+        <h4 class="font-bold text-sky-800 text-lg mb-2">🤝 الاشتراك الثابت (Subscription)</h4>
         <p class="text-sm text-sky-900 mb-2"><strong>مناسب لـ:</strong> المنتجات البسيطة والفرق الصغيرة.</p>
         <p class="text-sm text-sky-900 mb-2"><strong>لا يناسب:</strong> الشركات ذات الاستخدام المتغير.</p>
         <p class="text-sm text-sky-900 font-semibold"><strong>مثال ناجح:</strong> Trello</p>
@@ -218,7 +217,7 @@ export const part2: Part = {
 
     <!-- Usage-Based -->
     <div class="bg-indigo-50 border border-indigo-200 rounded-lg p-4 shadow">
-        <h4 class="font-bold text-indigo-800 text-lg mb-2">⚡ الدفع حسب الاستخدام</h4>
+        <h4 class="font-bold text-indigo-800 text-lg mb-2">⚡ الدفع حسب الاستخدام (Usage-Based)</h4>
         <p class="text-sm text-indigo-900 mb-2"><strong>مناسب لـ:</strong> البنية التحتية، الأدوات التقنية.</p>
         <p class="text-sm text-indigo-900 mb-2"><strong>لا يناسب:</strong> إذا كان الاستخدام غير متوقع.</p>
         <p class="text-sm text-indigo-900 font-semibold"><strong>مثال ناجح:</strong> Stripe</p>
@@ -226,7 +225,7 @@ export const part2: Part = {
 
     <!-- Commission -->
     <div class="bg-lime-50 border border-lime-200 rounded-lg p-4 shadow">
-        <h4 class="font-bold text-lime-800 text-lg mb-2">🛍️ العمولة</h4>
+        <h4 class="font-bold text-lime-800 text-lg mb-2">🛍️ العمولة (Commission)</h4>
         <p class="text-sm text-lime-900 mb-2"><strong>مناسب لـ:</strong> الأسواق (Marketplaces).</p>
         <p class="text-sm text-lime-900 mb-2"><strong>لا يناسب:</strong> إذا لم يكن هناك تدفق معاملات.</p>
         <p class="text-sm text-lime-900 font-semibold"><strong>مثال ناجح:</strong> Shopify</p>
@@ -234,7 +233,7 @@ export const part2: Part = {
 
     <!-- Ad-Supported -->
     <div class="bg-rose-50 border border-rose-200 rounded-lg p-4 shadow">
-        <h4 class="font-bold text-rose-800 text-lg mb-2">📢 الإعلانات</h4>
+        <h4 class="font-bold text-rose-800 text-lg mb-2">📢 الإعلانات (Ad-Supported)</h4>
         <p class="text-sm text-rose-900 mb-2"><strong>مناسب لـ:</strong> الجمهور الواسع.</p>
         <p class="text-sm text-rose-900 mb-2"><strong>لا يناسب:</strong> إذا كانت التجربة حساسة.</p>
         <p class="text-sm text-rose-900 font-semibold"><strong>مثال ناجح:</strong> Spotify</p>
@@ -324,7 +323,7 @@ export const part2: Part = {
             content: [
                 { type: ContentType.HEADING3, text: '1. تصميم قاعدة البيانات'},
                 { type: ContentType.CODE_BLOCK, language: 'sql', code:
-`-- جدول الخطط
+`-- جدول الخطط (Plans)
 CREATE TABLE plans (
     id SERIAL PRIMARY KEY,
     name VARCHAR(50), -- "Basic", "Pro", "Enterprise"
@@ -333,7 +332,7 @@ CREATE TABLE plans (
     billing_cycle VARCHAR(10) -- "monthly", "yearly"
 );
 
--- جدول الاشتراكات
+-- جدول الاشتراكات (Subscriptions)
 CREATE TABLE subscriptions (
     id UUID PRIMARY KEY,
     user_id UUID REFERENCES users(id),
@@ -377,7 +376,7 @@ if "error" not in sub:
                 },
                 {
                     type: ContentType.PARAGRAPH,
-                    text: '<b>شرح الكود:</b> يوضح هذا الكود كيفية إنشاء اشتراك جديد في Stripe برمجيًا. فائدته هي أتمتة عملية تحويل المستخدم من التجربة المجانية إلى المدفوعة. يُستخدم هذا الكود في الواجهة الخلفية عندما يكمل المستخدم نموذج الدفع. التعامل مع الأخط المختلفة (مثل بطاقة غير صالحة) ضروري لتوفير تجربة مستخدم واضحة.'
+                    text: '<b>شرح الكود:</b> يوضح هذا الكود كيفية إنشاء اشتراك جديد في Stripe برمجيًا. فائدته هي أتمتة عملية تحويل المستخدم من التجربة المجانية إلى المدفوعة. يُستخدم هذا الكود في الواجهة الخلفية عندما يكمل المستخدم نموذج الدفع. التعامل مع الأخط المختلف (مثل بطاقة غير صالحة) ضروري لتوفير تجربة مستخدم واضحة.'
                 },
                 { type: ContentType.HEADING3, text: '3. تحديث حالة الاشتراك عند دفع الفاتورة (Webhook)'},
                  { type: ContentType.CODE_BLOCK, language: 'python', code:
@@ -416,7 +415,7 @@ def stripe_webhook(request):
                 },
                 {
                   type: ContentType.NOTE,
-                  title: 'مشروع عملي: تكامل بوابة الدفع',
+                  title: 'مشروع عملي: تكامل بوابة الدفع (Payment Gateway)',
                   text: 'جرب عملية الدفع باستخدام Stripe في هذا المثال التفاعلي. ستحتاج إلى استبدال المفتاح العام المؤقت في الكود (`PK_test_...`) بالمفتاح الخاص بك من لوحة تحكم Stripe. (ملاحظة: يتطلب هذا المشروع تشغيل خادم خلفي مصاحب على `localhost:5000` ليعمل بشكل صحيح).',
                 },
                 {
@@ -438,14 +437,14 @@ def stripe_webhook(request):
             content: [
                 { type: ContentType.HEADING3, text: '1. MRR (Monthly Recurring Revenue) – الإيراد الشهري المتكرر'},
                 { type: ContentType.PREFORMATTED_TEXT, text: 'MRR = Σ (سعر الخطة × عدد المشتركين)'},
-                { type: ContentType.HEADING3, text: '2. Churn Rate – معدل ترك العملاء'},
+                { type: ContentType.HEADING3, text: '2. Churn Rate – معدل الانصراف (أو ترك العملاء)'},
                 { type: ContentType.PREFORMATTED_TEXT, text: 'Churn Rate = (عدد العملاء الذين ألغوا / إجمالي العملاء في البداية) × 100'},
                 { type: ContentType.NOTE, text: '🔹 <b>معدل جيد</b>: أقل من 3% شهريًا.'},
                 { type: ContentType.HEADING3, text: '3. LTV (Lifetime Value) – القيمة مدى الحياة للعميل'},
                 { type: ContentType.PREFORMATTED_TEXT, text: 'LTV = متوسط الإيراد الشهري للعميل / معدل الانصراف'},
                 { type: ContentType.HEADING3, text: '4. CAC (Customer Acquisition Cost) – تكلفة جذب عميل'},
                 { type: ContentType.PREFORMATTED_TEXT, text: 'CAC = (إجمالي التسويق + المبيعات) / عدد العملاء الجدد'},
-                { type: ContentType.HEADING3, text: '5. نسبة LTV/CAC'},
+                { type: ContentType.HEADING3, text: '5. نسبة LTV:CAC (LTV to CAC Ratio)'},
                 { type: ContentType.NOTE, title: 'القاعدة', text: 'إذا كانت <b>LTV > 3 × CAC</b>، فالنموذج مربح.'},
             ]
         },
@@ -544,22 +543,22 @@ def stripe_webhook(request):
 
         <!-- Value Proposition -->
         <div class="md:col-span-2 p-4 bg-amber-100 border border-amber-200 rounded-lg text-center">
-            <h4 class="font-bold text-amber-800 text-lg mb-2">💡 القيمة المقترحة</h4>
+            <h4 class="font-bold text-amber-800 text-lg mb-2">💡 القيمة المقترحة (Value Proposition)</h4>
             <p class="text-amber-900">"ترجمة وتوطين مستمر ومؤتمت لوثائق البرامج، مدعوم بالذكاء الاصطناعي."</p>
         </div>
 
         <!-- Customer Side -->
         <div class="space-y-4">
             <div class="p-4 bg-sky-50 border border-sky-200 rounded-lg">
-                <h4 class="font-bold text-sky-800 mb-2">👥 العملاء المستهدفون</h4>
+                <h4 class="font-bold text-sky-800 mb-2">👥 العملاء المستهدفون (Target Audience)</h4>
                 <p class="text-sm text-sky-900">شركات البرمجيات (B2B SaaS)، المطورون المستقلون، مديرو المنتجات.</p>
             </div>
             <div class="p-4 bg-sky-50 border border-sky-200 rounded-lg">
-                <h4 class="font-bold text-sky-800 mb-2">🤝 علاقات العملاء</h4>
+                <h4 class="font-bold text-sky-800 mb-2">🤝 علاقات العملاء (Customer Relationships)</h4>
                 <p class="text-sm text-sky-900">دعم فني عبر Slack، وثائق ممتازة، مجتمع للمطورين.</p>
             </div>
             <div class="p-4 bg-sky-50 border border-sky-200 rounded-lg">
-                <h4 class="font-bold text-sky-800 mb-2">🚚 قنوات التسويق</h4>
+                <h4 class="font-bold text-sky-800 mb-2">🚚 قنوات التسويق (Channels)</h4>
                 <p class="text-sm text-sky-900">تكامل مع GitHub Marketplace، محتوى تقني (SEO)، رعاية النشرات الإخبارية للمطورين.</p>
             </div>
         </div>
@@ -567,15 +566,15 @@ def stripe_webhook(request):
         <!-- Business Side -->
         <div class="space-y-4">
             <div class="p-4 bg-stone-100 border border-stone-200 rounded-lg">
-                <h4 class="font-bold text-stone-800 mb-2">⚙️ الأنشطة الأساسية</h4>
+                <h4 class="font-bold text-stone-800 mb-2">⚙️ الأنشطة الأساسية (Key Activities)</h4>
                 <p class="text-sm text-stone-700">تطوير التكاملات (GitHub, GitLab)، تحسين نماذج الذكاء الاصطناعي، دعم العملاء.</p>
             </div>
             <div class="p-4 bg-stone-100 border border-stone-200 rounded-lg">
-                <h4 class="font-bold text-stone-800 mb-2">📦 الموارد الأساسية</h4>
+                <h4 class="font-bold text-stone-800 mb-2">📦 الموارد الأساسية (Key Resources)</h4>
                 <p class="text-sm text-stone-700">مهندسو برمجيات، واجهة برمجة تطبيقات للترجمة (e.g., DeepL)، بنية تحتية سحابية.</p>
             </div>
             <div class="p-4 bg-stone-100 border border-stone-200 rounded-lg">
-                <h4 class="font-bold text-stone-800 mb-2">🔗 شراكات</h4>
+                <h4 class="font-bold text-stone-800 mb-2">🔗 شراكات (Key Partners)</h4>
                 <p class="text-sm text-stone-700">GitHub, Atlassian (Jira), مزودو خدمات الترجمة بالذكاء الاصطناعي.</p>
             </div>
         </div>
@@ -583,11 +582,11 @@ def stripe_webhook(request):
         <!-- Financials -->
         <div class="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="p-4 bg-red-50 border border-red-200 rounded-lg">
-                <h4 class="font-bold text-red-800 mb-2">💸 هيكل التكاليف</h4>
+                <h4 class="font-bold text-red-800 mb-2">💸 هيكل التكاليف (Cost Structure)</h4>
                 <p class="text-sm text-red-900">تكاليف API للترجمة، رواتب الفريق، استضافة سحابية، تسويق.</p>
             </div>
             <div class="p-4 bg-green-50 border border-green-200 rounded-lg">
-                <h4 class="font-bold text-green-800 mb-2">💰 مصدر الإيراد</h4>
+                <h4 class="font-bold text-green-800 mb-2">💰 مصدر الإيراد (Revenue Streams)</h4>
                 <p class="text-sm text-green-900">اشتراكات شهرية متدرجة بناءً على عدد الكلمات المترجمة والمشاريع.</p>
             </div>
         </div>
